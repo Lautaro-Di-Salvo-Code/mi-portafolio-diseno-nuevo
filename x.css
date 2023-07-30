@@ -1,0 +1,146 @@
+
+html{
+    
+    scroll-behavior:smooth;
+}
+nav{
+    position: fixed;
+}
+body{
+    font-family: 'Roboto', sans-serif !important;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+hr{
+    filter: opacity(50%);
+}
+i{
+    font-weight:600;
+    font-size: 1.2rem;
+    
+    overflow: hidden;
+    
+    color:rgb(99, 212, 212);
+    letter-spacing: .2rem;
+}
+/* .title{
+    box-shadow: none;
+} */
+b{
+    font-family:monospace;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    color: blue;
+}
+
+
+.mi-img{
+    position: relative;
+    height: 65vh;
+    width:  75%;
+    filter: brightness(110%);
+    z-index: 600px;
+}
+/* .desc-tec{
+    
+    
+    display: flex;
+    flex-direction:column;
+    background-color:rgb(244 231 214) ;
+    
+    
+} 
+*/
+.desc-tec p{
+    display: inline-block;
+    margin: 0 0;
+}
+
+
+
+
+
+
+
+
+.list-data{
+    position: relative;
+    top: 30vh;
+    
+    display: flex;    
+    flex-direction: row;
+
+}
+.list-data{
+    /* display: grid;
+    grid-template-rows: 100%; */
+    background-color: #3f3c3c;
+    color: #ffffff;
+    transform: rotate(-5deg);
+}
+.list-data >*{
+    width: 100%;
+    letter-spacing: .3rem;
+    word-spacing: 1rem;
+}
+.contac-me > *{
+display: flex;
+flex-direction: column;
+}
+.contact{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid;
+    margin-left: 2rem;
+    padding: 1rem .1rem 1rem .5rem;
+    width: 12rem;
+    cursor: pointer;
+    border-radius: 3rem;
+    color: #ffffff;
+    background-color: rgb(41, 173, 248);
+} 
+
+.contact:hover{
+    background-color: rgb(27, 83, 116);
+    transition: .5s ease;
+    box-shadow: none;
+    box-shadow:  .1rem .3rem .3rem .1rem rgba(0, 0, 0, 0.432);
+    color: #ffffff;
+}
+.contact:not(:hover){
+    
+    /* background-color: rgb(27, 83, 116); */
+    transition-duration:.5s ;
+    
+    
+}
+.para-separar > div, .para-separar > p {
+    cursor: pointer;
+}
+.para-separar{
+    width: 50%;
+    position: relative;
+    top: 20vh;
+    display: grid;
+    grid-template-columns: 130% 70% ;
+    grid-template-rows: repeat(2, 40%);
+}
+
+.para-separar:nth-child(2){
+    height: 10vh;
+    width: auto;
+}
+ 
+
+
+
+
+
+
+
+
+/* 221 209 293 */

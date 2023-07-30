@@ -1,0 +1,96 @@
+
+
+.item-L{
+    color: rgb(0, 0, 0);
+    
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    cursor: pointer;
+    /* text-decoration: underline; */
+    
+    border: none;
+    border-radius: .3rem;
+}
+.menu-bar {
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    left: -.5rem;
+}
+
+.item:hover {
+    transition-duration:.5s ;
+    
+    box-shadow:  .1rem .3rem .3rem .1rem rgba(0, 0, 0, 0.432);
+    
+} 
+.item:not(:hover){
+    transition-duration:.5s ;
+}
+
+.item {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    cursor: pointer;
+    /* text-decoration: underline; */
+    overflow:hidden;
+    position: relative;
+    /* box-shadow: .1rem .1rem .2rem .1rem rgba(0, 0, 0, 0.089); */
+    border: none;
+    border-radius: .3rem;
+  }
+  .animation::after{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 0rem;
+      height: .2rem;
+      background-color: rgba(43, 61, 226, 0.678);
+      transition: width .5s ease, left .5s ease, right .5s ease;
+  }
+  /* .section-list-data{
+      position: relative;
+  } */
+  .animation:hover::after{
+      width: 100%;
+  }
+  .to-center::after{
+      left: 50% ;
+  }
+  .to-center:hover::after{
+      left: 0;
+  }
+  .contacto{
+    border-radius: 1rem;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgba(53, 119, 119, 0.651);
+    margin-right: .3rem;
+    margin-top: .2rem;
+    font-size: 18px;
+    display: inline-flex;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+.contac-me{
+   
+    width: 50%;
+}
+.contacto:hover{
+    transition-duration:.5s ;
+    box-shadow: .1rem .3rem .3rem .1rem rgba(49, 152, 152, 0.61);
+    
+}
+.contacto:not(:hover){
+    
+    transition-duration:.5s  ;
+}  

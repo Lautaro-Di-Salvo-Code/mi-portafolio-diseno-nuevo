@@ -1,0 +1,15 @@
+@media  (max-with: 271px) {
+    .mi-img{
+        height: 45vh    !important;
+        width: 55%  !important;
+        filter:saturate(1%) !important;
+    }
+}
+
+/* 
+img{
+    height: 65vh;
+    width:  75%;
+    filter: brightness(110%);
+}
+*/
