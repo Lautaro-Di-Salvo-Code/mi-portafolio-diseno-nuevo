@@ -14,8 +14,8 @@ footer > a, footer>i , footer >p {
 
 footer {
     
-    /* padding: .1rem; 
-    margin: .1rem; */
+    padding: .1rem; 
+    margin: .1rem;
     display: inline-flex;
     background-color: #333;
     color: #fff;

@@ -27,9 +27,7 @@ i{
     color:rgb(99, 212, 212);
     letter-spacing: .2rem;
 }
-/* .title{
-    box-shadow: none;
-} */
+
 b{
     font-family:monospace;
     font-size: 1.2rem;
@@ -143,4 +141,3 @@ flex-direction: column;
 
 
 
-/* 221 209 293 */
