@@ -13,6 +13,8 @@
     border: none;
     border-radius: .3rem;
 }
+
+
 .menu-bar {
     position: relative;
     background-color: #ffffff;
@@ -68,7 +70,7 @@
   .to-center:hover::after{
       left: 0;
   }
-  .contacto{
+.contacto{
     border-radius: 1rem;
     
     color: rgb(255, 255, 255);
