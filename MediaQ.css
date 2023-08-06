@@ -20,6 +20,11 @@
 }
 
 @media  screen and (max-width: 800px) {
+    .contact{
+        margin-left: auto;
+        margin-right:auto ;
+        
+    }
     .menu-bar{
         margin-left: auto;
         margin-right:auto ;
