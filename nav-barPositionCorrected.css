@@ -1,5 +1,4 @@
 
-
 .item-L{
     color: rgb(0, 0, 0);
     
@@ -70,7 +69,7 @@
   .to-center:hover::after{
       left: 0;
   }
-.contacto{
+.contrat-me{
     border-radius: 1rem;
     
     color: rgb(255, 255, 255);
@@ -83,16 +82,16 @@
     padding: 14px 20px;
     cursor: pointer;
 }
-.contac-me{
+.contrat-me{
    
-    width: 50%;
+    width: 100%;
 }
-.contacto:hover{
+.contrat-me:hover{
     transition-duration:.5s ;
     box-shadow: .1rem .3rem .3rem .1rem rgba(49, 152, 152, 0.61);
     
 }
-.contacto:not(:hover){
+.contrat-me:not(:hover){
     
     transition-duration:.5s  ;
 }  

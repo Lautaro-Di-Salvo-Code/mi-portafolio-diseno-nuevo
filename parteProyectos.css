@@ -1,41 +1,73 @@
 
+:root{
+    --heigth-img: auto;
+    --width-img: 1;
+    --width-img: 70%;
+    --margin-autom: auto;
 
+}
 main{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
 }
 .projects-styles{
     
-    margin-top: 5rem;
-    margin-bottom: 4rem;
+    /* margin-top: 5rem;
+    margin-bottom: 4rem; */
     /* margin-left: 30%;
     margin-right:20% ; */
     
-    gap: 2rem ;
     
     
-    display: grid;
-    grid-template-columns: 30% 32% 25%;
-    grid-template-rows: 20% 10%;
-    /* display: flex;
-    flex-direction: row; */
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(3rem, 1fr));
+    
+    gap: 2rem ; */
+    /* flex-flow: column wrap; */
+    margin: 3rem;
+    padding: 1rem;
+    display: flex;
+    
+    align-items: center;
+    
+    box-shadow: 1rem grey;
+}
+
+
+.projects-styles a{
+    display: flex;
+    justify-content: center;
 }
 .img-mia-project ,b{
-    width: 10rem;
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
+    width: auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.img-mia-project{
+    height: auto;
+    align-items: center;
+    width:  50%;
+    /* max-width: 60%; */
 }
 .mi-img2 {
     border-radius: 50%;
     height: auto;
-    width:  10rem;
+    width:  90%;
 }
 .images-proj1{
-    height: auto  ;
-    width: 80%    ;
+    height: var(--heigth-img);
+    margin: var(--margin-autom);
+    width: var(--width-img);
+    align-content: center;
+    
 }
 .images-proj2{
-    height: auto   ;
-    width: 100%;
-    /* filter:blur(1rem); */
+    height: var(--heigth-img);
+    margin: var(--margin-autom);
+    width: var(--width-img);
+    align-content: center;
+
+    
 }
